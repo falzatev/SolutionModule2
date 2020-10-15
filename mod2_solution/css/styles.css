@@ -3,12 +3,58 @@
     margin: 0;        
     box-sizing: border-box;
   }
-nav {
-    margin: 0 auto;
+body {
+    /* font-size: 16px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    margin: 50px;
+    /* font-size: 24px; */
+    font-weight: bold;
+    text-align: center;
+}
+div.row > div {    
+    position: relative;
+}
+div > p {
+    background-color: rgb(160, 156, 156);
+    height: 30em;
+    width: 90%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 10px 10px 10px;
+}
+
+h2 {
+    /* float: right; */
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    height: 35px;
+    border: 2px solid black;
+    /* border-bottom: 2px solid black; */
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+#chicken {
+    background-color: coral;
+}
+#beef {
+    background-color: rgb(230, 46, 83);
+    color: white;
+}
+#sushi {
+    background-color: burlywood;
+}
+.row {
+    width: 100%;
 }
 
  /********** Large devices only **********/
- @media (min-width: 1200px) {
+ @media (min-width: 992px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         float: left;
         /* border: 1px solid green; */
@@ -49,13 +95,13 @@ nav {
     .col-lg-12 {
         width: 100%;
     }
-    }
+}
 
     /********** Medium devices only **********/
-    @media (min-width: 950px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float: left;
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
     .col-md-1 {
         width: 8.33%;
@@ -93,4 +139,21 @@ nav {
     .col-md-12 {
         width: 100%;
     }
+    div.row > div {
+        margin-bottom: 30px;
     }
+    h2#sushi {
+        width: 25%;
+        left: 72.5%;
+    }
+    #psushi {
+        width: 95%;
+    }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+    div.row > div {
+        margin-bottom: 30px;
+    }
+}
