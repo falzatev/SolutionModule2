@@ -9,7 +9,7 @@ body {
 }
 h1 {
     margin: 50px;
-    /* font-size: 24px; */
+    font-size: 175%;
     font-weight: bold;
     text-align: center;
 }
@@ -24,20 +24,18 @@ div > p {
     border: 2px solid black;
     margin-right: auto;
     margin-left: auto;
-    padding: 40px 10px 10px 10px;
+    padding: 60px 20px 10px 20px;
 }
 
-h2 {
-    /* float: right; */
+h2 {    
     width: 50%;
-    font-size: 20px;
+    font-size: 125%;
     text-align: center;
     height: 35px;
     border: 2px solid black;
-    /* border-bottom: 2px solid black; */
     position: absolute;
     top: 0;
-    left: 45%;
+    right: 5%;
 }
 #chicken {
     background-color: coral;
@@ -144,7 +142,7 @@ h2 {
     }
     h2#sushi {
         width: 25%;
-        left: 72.5%;
+        right: 2.5%;
     }
     #psushi {
         width: 95%;
