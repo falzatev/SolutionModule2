@@ -18,7 +18,7 @@ div.row > div {
 }
 div > p {
     background-color: rgb(160, 156, 156);
-    height: 30em;
+    height: 20em;
     width: 90%;
     box-sizing: border-box;
     border: 2px solid black;
